@@ -423,7 +423,7 @@ def endchat():
     [User Details]<br>
     <label for="ufname"><strong>"""+Userdetails+"""</strong></label></br></br>
     [Creator Details]<br>
-    <label for="ufname"><strong>Ramya Karanam, karanara@mail.uc.edu</strong></label></br></br>
+    <label for="ufname"><strong>Badri Komma, Kommabi@mail.uc.edu</strong></label></br></br>
     """
     return EndChatHTMLFirst+EndChatHTMLMiddle+EndChatHTMLLast
 
