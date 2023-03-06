@@ -190,25 +190,25 @@ def chatbotsystem():
             # answergiven="Yes! Bearcats is the football team name"
         elif(questionasked in "Does it have Computer Science Major?"):
             ChatWindowHTMLMiddle = """
-            </br><label for="ufname" style="color:blue;"><strong>""" + questionasked + """</strong></label></br>
+            </br><label for="ufname" style="color:black;"><strong>""" + questionasked + """</strong></label></br>
             <label for ="ufname"><strong>Yes! It has Computer Science Major</strong></label></br>
             """
             # answergiven = "Yes! It has Computer Science Major"
         elif (questionasked in "What is the in-state tuition?"):
             ChatWindowHTMLMiddle = """
-            </br><label for="ufname" style="color:blue;"><strong>""" + questionasked + """</strong></label></br>
+            </br><label for="ufname" style="color:black;"><strong>""" + questionasked + """</strong></label></br>
             <label for ="ufname"><strong> The total tuition and living expense budget for in-state Ohio residents to go to UC is $28,150</strong></label></br>
             """
             # answergiven = "The total tuition and living expense budget for in-state Ohio residents to go to UC is $28,150"
         elif (questionasked in "Does its have on campus housing?"):
             ChatWindowHTMLMiddle = """
-            </br><label for="ufname" style="color:blue;"><strong>""" + questionasked + """</strong></label></br>
+            </br><label for="ufname" style="color:black;"><strong>""" + questionasked + """</strong></label></br>
             <label for ="ufname"><strong> No!! it doesn't have campus housing</strong></label></br>
             """
             # answergiven = "No!! it doesn't have campus housing"
         else:
             ChatWindowHTMLMiddle = """
-            </br><label for="ufname" style="color:blue;"><strong>""" + questionasked + """</strong></label></br>
+            </br><label for="ufname" style="color:black;"><strong>""" + questionasked + """</strong></label></br>
             <label for ="ufname"><strong> Sorry!! I don't have answer to your question</strong></label></br>
             """
             # answergiven = "Sorry!! I don't have answer to your question"
